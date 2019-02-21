@@ -29,3 +29,75 @@
 2019-02-21 19:11:45.236 DEBUG 14828 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
 2019-02-21 19:11:45.247 DEBUG 14828 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
 2019-02-21 19:11:45.447  INFO 14828 --- [main] com.taskspringboot.BssMainApplication    : Started BssMainApplication in 2.822 seconds (JVM running for 3.626)
+2019-02-21 19:21:02.813  INFO 3192 --- [main] com.taskspringboot.BssMainApplication    : Starting BssMainApplication on BF-550TU with PID 3192 (started by USER in D:\Spring Boot Project\CRM1stSpringBoot\bss_taskmanagement_sso)
+2019-02-21 19:21:02.816 DEBUG 3192 --- [main] com.taskspringboot.BssMainApplication    : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-02-21 19:21:02.817  INFO 3192 --- [main] com.taskspringboot.BssMainApplication    : No active profile set, falling back to default profiles: default
+2019-02-21 19:21:04.224 DEBUG 3192 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-02-21 19:21:04.224  INFO 3192 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1349 ms
+2019-02-21 19:21:04.454 TRACE 3192 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**/favicon.ico] onto ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-02-21 19:21:04.455 DEBUG 3192 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-02-21 19:21:04.601 DEBUG 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-02-21 19:21:04.652 TRACE 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.t.c.ListController:
+	{POST /insertList}: insertList(listJson,UriComponentsBuilder)
+	{PUT /updateList}: updateTeam(listJson)
+	{DELETE /deleteList/{id}}: deleteList(Integer)
+	{GET /getAllTeamLists/{id}}: getAllTeamLists(Integer)
+2019-02-21 19:21:04.658 TRACE 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.t.c.TeamController:
+	{PUT /updateTeam}: updateTeam(teamJson)
+	{POST /insertTeam}: insertTeam(teamJson)
+	{DELETE /team/{id}}: deleteTeam(Integer)
+	{ /getAllTeams}: getAllTeams()
+2019-02-21 19:21:04.664 TRACE 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2019-02-21 19:21:04.668 DEBUG 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2019-02-21 19:21:04.677 DEBUG 3192 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2019-02-21 19:21:04.687 TRACE 3192 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-02-21 19:21:04.687 TRACE 3192 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-02-21 19:21:04.687 DEBUG 3192 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-02-21 19:21:04.696 DEBUG 3192 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-02-21 19:21:04.902  INFO 3192 --- [main] com.taskspringboot.BssMainApplication    : Started BssMainApplication in 2.502 seconds (JVM running for 3.295)
+2019-02-21 19:21:28.244  INFO 8080 --- [main] c.taskspringboot.TeamControllerUnitTest  : Starting TeamControllerUnitTest on BF-550TU with PID 8080 (started by USER in D:\Spring Boot Project\CRM1stSpringBoot\bss_taskmanagement_sso)
+2019-02-21 19:21:28.245 DEBUG 8080 --- [main] c.taskspringboot.TeamControllerUnitTest  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-02-21 19:21:28.249  INFO 8080 --- [main] c.taskspringboot.TeamControllerUnitTest  : No active profile set, falling back to default profiles: default
+2019-02-21 19:21:28.281 TRACE 8080 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@909217e, started on Thu Feb 21 19:21:28 MMT 2019
+2019-02-21 19:21:30.200 TRACE 8080 --- [main] o.s.w.c.s.GenericWebApplicationContext   : No 'messageSource' bean, using [Empty MessageSource]
+2019-02-21 19:21:30.201 TRACE 8080 --- [main] o.s.w.c.s.GenericWebApplicationContext   : No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2019-02-21 19:21:30.563 TRACE 8080 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**/favicon.ico] onto ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-02-21 19:21:30.564 DEBUG 8080 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-02-21 19:21:30.938 DEBUG 8080 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-02-21 19:21:31.068 TRACE 8080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2019-02-21 19:21:31.085 TRACE 8080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.t.c.TeamController$MockitoMock$1704460273:
+	{POST /insertTeam}: insertTeam(teamJson)
+	{PUT /updateTeam}: updateTeam(teamJson)
+	{ /getAllTeams}: getAllTeams()
+	{DELETE /team/{id}}: deleteTeam(Integer)
+2019-02-21 19:21:31.087 DEBUG 8080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2019-02-21 19:21:31.114 DEBUG 8080 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2019-02-21 19:21:31.129 TRACE 8080 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-02-21 19:21:31.130 TRACE 8080 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-02-21 19:21:31.130 DEBUG 8080 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-02-21 19:21:31.149 DEBUG 8080 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-02-21 19:21:31.532 TRACE 8080 --- [main] o.s.w.c.s.GenericWebApplicationContext   : No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2019-02-21 19:21:31.546  INFO 8080 --- [main] c.taskspringboot.TeamControllerUnitTest  : Started TeamControllerUnitTest in 3.838 seconds (JVM running for 5.178)
+2019-02-21 19:21:31.640 TRACE 8080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.t.c.TeamController$MockitoMock$1704460273:
+	{POST /insertTeam}: insertTeam(teamJson)
+	{PUT /updateTeam}: updateTeam(teamJson)
+	{ /getAllTeams}: getAllTeams()
+	{DELETE /team/{id}}: deleteTeam(Integer)
+2019-02-21 19:21:31.644 DEBUG 8080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in <unknown>
+2019-02-21 19:21:31.727 DEBUG 8080 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-02-21 19:21:31.735 DEBUG 8080 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-02-21 19:21:31.899 TRACE 8080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.lang.Void> com.taskspringboot.controller.TeamController$MockitoMock$1704460273.deleteTeam(java.lang.Integer)
+2019-02-21 19:21:31.929 TRACE 8080 --- [main] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [1]
+2019-02-21 19:21:31.949 DEBUG 8080 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2019-02-21 19:21:31.949 DEBUG 8080 --- [main] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2019-02-21 19:21:31.968 DEBUG 8080 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@909217e, started on Thu Feb 21 19:21:28 MMT 2019
