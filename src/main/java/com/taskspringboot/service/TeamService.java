@@ -13,10 +13,12 @@ public class TeamService {
 	@Autowired
 	private TeamDAOInterface teamDAO;
 	
+	//get team data 
 	public List<Team> getAllTeams(){
 		return teamDAO.getAllTeams();
 	}
 	
+	//insert new team 
 	public synchronized boolean addTeam(Team team){
        if (teamDAO.teamExists(team.getTeam_name(), team.getTeam_description())) {
     	   return false;
@@ -26,10 +28,12 @@ public class TeamService {
        }
 	}
 	
+	//update team
 	public void updateTeam(Team team) {
 		teamDAO.updateTeam(team);
 	}
 	
+	//delete team
 	public void deleteTeam(int team_id) {
 		teamDAO.deleteTeam(team_id);
 	}
